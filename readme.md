@@ -40,15 +40,21 @@ https://caroliniesubramaniam.github.io/Fronted-development/
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Ik vind het nog moeilijk om een hamburger menu te maken, ik heb verschillende tutorials bekeken maar ik kom er nog niet helemaal uit. Verder ben ik al een beetje begonnen met de 'gallerij'. 
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent-
+![](images/voortgang1.jpg) 
+
+![](images/voortgang2.jpg) 
+
+![](images/voortgang3.jpg) 
+
+
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+
 
 ### Verslag van meeting
 
