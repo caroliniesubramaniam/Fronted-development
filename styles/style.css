@@ -1,49 +1,183 @@
 /* CSS Document */
 *, *::after, *::before {
   box-sizing:border-box;  
+  padding:3em, 3em;
+}
+
+/* nav & menu */
+h1 {
+font-family: baskerville-urw,serif;
+font-weight: 300;
+font-style: normal;
+font-size: 30px;
+}
+
+.menu-link {
+  font-family: acumin-pro,sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 20px;
+  color:lightgrey;
+  letter-spacing: 1,25px;
+  text-decoration: none;
+  list-style: none;
+}
+
+li {
+	text-decoration: none;
+	list-style: none;
+}
+
+.menu-link:hover {
+	color: black;
 }
 
 nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 15px;
+	height: 100%;
+	background-color: white;
+	line-height: 1em;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    flex-direction: row-reverse; 
 }
 
-.navigatie {
+
+nav ul {
+	display: flex;
+}
+
+nav li {
+	margin-left: 50px;
+}
+
+nav input, label {
+	display: none;
+}
+/* nav & menu */
+
+
+/*slider*/
+.header {
   display: flex;
-  align-items: center;
   justify-content: center;
-  padding: 0;
-  list-style-type: none;
-}
-
-.navigatie li a {
-  display: inline-block;
-  color: grey;
-  font-family: sans-serif;
-  padding: 10px 20px;
-  text-decoration: none;
 }
 
 .slider {
-  width: 100%;
-  height: 250px;
+  width: 972px;
+  height: 648px; 
 }
+/*slider*/
 
+/*gallerij*/
+.gallerij {
 
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  justify-content: center;
+}
 
 .foto {
-
-  display: block;
-  flex-direction: column;
   padding: 1em;
-  width: 100%;
-  align-items: center;
+  width: 290px;
+  height: 190.947px;
 
 }
+/*gallerij*/
 
-footer {
-  color: grey;
-  font-family: sans-serif;
+
+
+
+@media only screen and (max-width: 550px) {
+
+	h1 {
+		font-size: 1.2;
+  	}
+  
+
+	/* nav & menu */
+	nav {
+
+		height: 100%;
+		position: sticky;
+		background-color: white;
+		top: 0;
+
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	
+
+		padding: 15px;
+
+		margin: 0;
+	}
+
+	nav label {
+		display: block;
+		font-size: 1.5em;
+		line-height: 1em;
+	}
+
+	ul {
+		display: flex;
+		flex-direction: column;
+		transform:translateY(-100em);
+	
+		transition: 0.5s;
+	}
+
+
+	#toggle:checked + ul {
+		transform:translateY(0);
+		opacity: 100;
+    }
+
+	.menu {
+		position: absolute;
+		top: 50px;
+		left: 0;
+
+		width: 100%;
+		height: 100vh;
+		background-color: white;
+		padding-top: 50%;
+	}
+
+	nav li {
+		margin: 30px 0;
+	}
+
+	.menu-link {
+		font-size: 1.5em;
+	}
+	/* nav & menu */
+	
+	/*slider*/
+	.slider {
+		width: 200px;
+		height: 186.72;
+	}
+	/*slider*/
+
+	/*gallerij*/ 
+	.gallerij {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+
+	.foto {
+		width: 200px;
+		height: 186.66px;
+	}
+	/*gallerij*/ 
+
+
+
+
+
+
+
 }

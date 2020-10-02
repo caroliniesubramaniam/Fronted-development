@@ -32,7 +32,22 @@ https://caroliniesubramaniam.github.io/Fronted-development/
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Stand van zaken
+
+Ik heb mijn code helemaal opnieuw gemaakt, er zat een fout in mijn code en die kreeg ik er maar niet uit dus ik ben opnieuw begonennen. Verder heb ik een hamburger menu alleen heb ik dit door verschillende tutorials gemaakt. Mijn gallerij staat eindelijk in het midden, alleen moet ik de juiste formule vinden voor de afbeeldingen om het responsive te maken. 
+
+### Agenda voor meeting
+- Grids
+- Keyframes
+
+**Screenshot(s):**
+
+![](images/voortgang/voortgang4.jpg) 
+
+![](images/voortgang/voortgang5.jpg) 
+
+
+
 
 
 
@@ -40,7 +55,7 @@ https://caroliniesubramaniam.github.io/Fronted-development/
 
 ### Stand van zaken
 
-Ik vind het nog moeilijk om een hamburger menu te maken, ik heb verschillende tutorials bekeken maar ik kom er nog niet helemaal uit. Verder ben ik al een beetje begonnen met de 'gallerij'. 
+Ik vind het nog moeilijk om een hamburger menu te maken, ik heb verschillende tutorials bekeken maar ik kom er nog niet helemaal uit. Verder ben ik al een beetje begonnen met de 'gallerij' alleen loop ik vast, want ik krijg mijn images niet in het midden van de pagina. 
 
 **Screenshot(s):**
 
@@ -54,11 +69,12 @@ Ik vind het nog moeilijk om een hamburger menu te maken, ik heb verschillende tu
 
 ### Agenda voor meeting
 
+Geen agenda gemaakt
 
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+Tijdens de meeting hebben wij vragen gesteld, we hebben uitleg gekregen over de hamburger menu. Daarna heb ik nog hulp gekregen van de student assistente over de header, alleen kwamen we er beide niet uit en moest ik weer terug komen als mijn website live stond. 
 
 
 
