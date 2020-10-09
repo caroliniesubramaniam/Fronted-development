@@ -26,7 +26,9 @@ https://caroliniesubramaniam.github.io/Fronted-development/
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+### Stand van zaken
+
+Ik ben verder gegaan met mijn code, ik ben nog bezig met mijn slider. Ik probeer de Javascript te begrijpen door steeds te kijken wat de code precies doet. Verder ben ik begonnen met de tweede pagina en maak ik daarin gebruik van Grid
 
 
 
@@ -46,6 +48,9 @@ Ik heb mijn code helemaal opnieuw gemaakt, er zat een fout in mijn code en die k
 
 ![](images/voortgang/voortgang5.jpg) 
 
+### Verslag van meeting
+
+Tijdens de meeting hebben wij met de studentassistente gekeken naar onze websites. Hij heeft mij geholpen met de formule van mijn afbeeldingen. Dit was niet nodig ik had mijn height van de images aan staan, dit moest ik uitzetten. 
 
 
 
