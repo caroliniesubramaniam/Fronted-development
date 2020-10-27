@@ -10,6 +10,12 @@ font-family: baskerville-urw,serif;
 font-weight: 300;
 font-style: normal;
 font-size: 30px;
+
+}
+
+h1 a {
+	text-decoration: none;
+	color: black;
 }
 
 .menu-link {
@@ -58,55 +64,33 @@ nav input, label {
 /* nav & menu */
 
 
-/*slider*/
+/*header*/
 
-.slideshow-container {
-	max-width: 1000px;
-	position: relative;
-	margin: auto;
-  }
-  
-  
-  .slider-foto {
-	display: none;
-  }
-  
-  /* volgende & terug buttons */
-  .terug, .volgende { 
-	cursor: pointer;
-	position: absolute;
-	top: 50%;
-	width: auto;
-	margin-top: -22px;
-	padding: 16px;
-	color: white;
-	font-weight: bold;
-	font-size: 18px;
-	transition: 0.6s ease;
-	border-radius: 0 3px 3px 0;
-	user-select: none;
-  }
-  
-  
-  .volgende {
-	right: 0;
-	border-radius: 3px 0 0 3px;
-  }
-  
+header {
+	display: flex;
+	justify-content: center;
+	
+	
+	
 
-  .terug:hover, .volgende:hover {
-	background-color: rgba(0,0,0,0.8);
-  }
-  
+}
 
-/*slider*/
+.chocolade {
+	width: 1132px;
+	padding: 10px;
+}
+
+
+
+/*header*/
+
 
 
 
 
 
 /*gallerij*/
-.gallerij {
+.container-gallerij {
 
   display: flex;
   flex-direction: row;
@@ -117,28 +101,63 @@ nav input, label {
 .foto {
   padding: 10px;
   width: 380px;
-    
-  
 
 }
+
+p {
+	text-align: center;
+	font-family: interface,sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	font-size: 15px;
+}
+
+h3 { 
+	text-align: center;
+	font-family: interface,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+
+}
+
+
+
 /*gallerij*/
+
+/*footer*/
+footer {
+	text-align: center;
+	padding: 3px;
+	color:grey;
+	font-family: interface,sans-serif;
+	font-weight: 100;
+	font-style: normal;
+  }
+
+/*footer*/
 
 
 /* WORK PAGE */
+.grid {
+	padding: 50px;
+}
 
 .foto-work {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: 1fr 1fr;
-	gap: 10px 20px;
+	justify-content: center;
+	gap: normal;
+}
+
+.gridfoto {
 	
-
+	width: 380px;
 }
 
-.foto-work img {
-	width: 100%;
-	padding-left: 10px;
-}
+
+/* WORK PAGE */
 	
 
 
@@ -231,15 +250,23 @@ nav input, label {
 	}
 	/* nav & menu */
 	
-	/*slider*/
-	.slider {
-		width: 100%;
-		
+	/*header*/
+
+	header {
+		display: flex;
+		justify-content: center;
+		max-width: 100%;
 	}
-	/*slider*/
+	.chocolade {
+		width: 380px;
+		padding: 10px;
+
+	}
+	
+	/*header*/
 
 	/*gallerij*/ 
-	.gallerij {
+	.container-gallerij {
 		flex-direction: column-reverse;
 		align-items: center;
 	}
@@ -248,6 +275,7 @@ nav input, label {
 		object-fit: fill;		
 	}
 	/*gallerij*/ 
+
 
 
 
