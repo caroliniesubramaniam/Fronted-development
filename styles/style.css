@@ -101,7 +101,7 @@ box-shadow: 5px 8px rgba(0,0,0,.1);
 }
 
 button:active {
-transform: translateX(-2px);
+transform: translateX(-2px); 
 }
 
 .nachtmodus {
