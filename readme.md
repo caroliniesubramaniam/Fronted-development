@@ -8,19 +8,28 @@ https://caroliniesubramaniam.github.io/Fronted-development/
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. https://codepen.io/derekfletes/pen/MJeXeM
+2. https://www.w3schools.com/css/css3_buttons.asp
+3. https://www.heredesign.co.uk/
+4. https://yoksel.github.io/flex-cheatsheet/#section-justify-content
+5. https://www.youtube.com/watch?v=DZg6UfS5zYg
+
 
 
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+Ik heb mijn website afgemaakt. Ik heb de slider weggelaten omdat ik dit nog best vond in Javascript, verder heb ik derest van de content toegevoegd. Ik heb ook een animatie button gemaakt, als je erop klikt dan kom je in de darkmode versie van de website. 
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+![](images/voortgang/voortgang6.jpg) 
+
+![](images/voortgang/voortgang7.jpg) 
+
+![](images/voortgang/voortgang8.jpg) 
+
+![](images/voortgang/voortgang9.jpg) 
 
 
 
