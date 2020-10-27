@@ -40,7 +40,6 @@ li {
 
 nav {
 	height: 100%;
-	background-color: white;
 	line-height: 1em;
 
 	display: flex;
@@ -69,9 +68,6 @@ nav input, label {
 header {
 	display: flex;
 	justify-content: center;
-	
-	
-	
 
 }
 
@@ -84,9 +80,54 @@ header {
 
 /*header*/
 
+/*darkmode*/
 
+button {
+  background-color: #ffffff;
+  border: 1px solid black;
+  color: black;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 10px;
+  margin: 10px;
+}
 
+.nachtmodus {
+	display: flex;
+	justify-content: center;
+}
 
+.darkmodus {
+	justify-content: center;
+}
+
+.darkmode {
+	background-color: black;
+}
+
+.darkmode button {
+	border: 1px solid white;
+    background: black;
+    color: white; 
+}
+
+.darkmode p {
+    color: white;
+}
+
+.darkmode label {
+    color: white;
+}
+
+.darkmode h3 {
+	color: white;
+}
+
+.darkmode h1 {
+	color: white;
+}
+
+/*darkmode*/
 
 
 /*gallerij*/
@@ -137,47 +178,43 @@ footer {
 
 /*footer*/
 
+/*approach*/
 
-/* WORK PAGE */
-.grid {
-	padding: 50px;
-}
-
-.foto-work {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: 1fr 1fr;
+.parent-container {
+	display: flex;
 	justify-content: center;
-	gap: normal;
-}
-
-.gridfoto {
-	
-	width: 380px;
-}
-
-
-/* WORK PAGE */
 	
 
+}
+
+.tekst-container1 {
+	width: 1180px;
+	height: 780px;
+	background-color: black;
+	padding-top: 50px;
+}
+
+.tekst-container1 p {
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	font-family: baskerville-urw,serif;
+	font-weight: 200;
+	font-style: normal;
+}
 
 
+.tekst-container1 h2 {
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	padding-bottom: 200px;
+	font-family: usual,sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*approach*/
 
 
 
@@ -275,6 +312,37 @@ footer {
 		object-fit: fill;		
 	}
 	/*gallerij*/ 
+
+	/*approach*/
+
+	.parent-container {
+		display: flex;
+		justify-content: center;
+		
+	
+	}
+	
+	.tekst-container1 {
+		width: 280px;
+		height: 299px;
+		background-color: black;
+	
+	}
+
+	.tekst-container1 p {
+		font-size: 12px;
+
+
+	}
+
+	.tekst-container1 h2 {
+		font-size: 20px;
+		padding-bottom: 10px;
+	}
+	
+
+	/*approach*/
+	
 
 
 
