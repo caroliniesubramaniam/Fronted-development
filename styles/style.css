@@ -170,6 +170,34 @@ h2 {
 }
 /*gallerij*/
 
+/*chocolade-page*/
+
+.chocolade-img {
+	justify-content: center;
+	display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*footer*/
 footer {
 	text-align: center;
@@ -182,27 +210,7 @@ footer {
 
 /*footer*/
 
-.text-box {
-	justify-content: center;
-	display: flex;
-}
 
-.box-text  { 
-	text-align: center;
-	width: 1180px ;
-	height: 780px;
-	background-color: #76A8D9;
-}
-
-h3 {
-	font-family: halyard-display,sans-serif;
-	font-weight: 300;
-	font-style: normal;
-	font-size: 30px;
-	color: white;
-	letter-spacing: 2px;
-}
-	
 
 
 
