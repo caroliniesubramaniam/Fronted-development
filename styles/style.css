@@ -37,7 +37,7 @@ font-size: 20px;
 
 color: lightgrey;
 text-align: center;
-letter-spacing: 1,25px;
+letter-spacing: 1px;
 padding: 14px;
 text-decoration: none;
 
@@ -146,12 +146,6 @@ transform: translateX(-2px);
 
 }
 
-.seemore {
-	text-decoration: none;
-	padding: 10px;
-
-}
-
 p {
 	text-align: center;
 	font-family: interface,sans-serif;
@@ -160,7 +154,7 @@ p {
 	font-size: 15px;
 }
 
-h2 { 
+h3 { 
 	text-align: center;
 	font-family: interface,sans-serif;
 	font-weight: 400;
@@ -170,30 +164,62 @@ h2 {
 }
 /*gallerij*/
 
-/*chocolade-page*/
+/*contact*/
 
-.chocolade-img {
-	justify-content: center;
+.contact {
+
 	display: flex;
+	flex-direction: row;
+	max-width: 100%;
+	justify-content: center;
+  }
+
+  .info {
+	padding: 10px;
+	width: 380px;
+	text-align: start;
+  
+  }
+
+h4 {
+	text-align: start;
+	font-family: interface,sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 25px;
 }
 
+.text-light {
+	text-align: start;
+	font-family: mrs-eaves-roman-lining,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
 
+}
 
+.text-hoover {
+	text-align: start;
+	font-family: mrs-eaves-roman-lining,sans-serif;
+    font-weight: 400;
+	font-style: normal;
+	color: lightgray;
+	font-size: 20px;
+	text-decoration: none;
 
+}
 
+.text-hoover:hover {
+	color: black;
+}
 
+.socialmedia {
+	display: flex;
+	justify-content: space-evenly;
+	max-width: 100%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+/*contact*/
 
 
 
@@ -288,8 +314,19 @@ footer {
 	}
 	/*gallerij*/ 
 
+	/*contact*/
 
+	.contact {
+		flex-direction: column-reverse;
+		align-items: flex-start;
+	}
+
+	.socialmedia {
+		flex-direction: column-reverse;
+		align-items: flex-start;
+	}
 	
+	/*contact*/
 
 
 
