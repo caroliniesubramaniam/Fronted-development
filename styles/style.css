@@ -10,6 +10,7 @@ font-family: baskerville-urw,serif;
 font-weight: 300;
 font-style: normal;
 font-size: 30px;
+text-align: center;
 
 }
 
@@ -18,48 +19,35 @@ h1 a {
 	color: black;
 }
 
-.menu-link {
-  font-family: acumin-pro,sans-serif;
-  font-weight: 200;
-  font-style: normal;
-  font-size: 20px;
-  color:lightgrey;
-  letter-spacing: 1,25px;
-  text-decoration: none;
-  list-style: none;
-}
-
-li {
-	text-decoration: none;
-	list-style: none;
-}
-
-.menu-link:hover {
-	color: black;
-}
 
 nav {
-	height: 100%;
-	line-height: 1em;
+background-color: transparent;
+overflow: auto;
+white-space: nowrap;
+display: flex;
+justify-content: center;
 
-	display: flex;
-	justify-content: center;
-	align-items: center;
-    flex-direction: row-reverse; 
+}
+  
+nav a {
+font-family: acumin-pro,sans-serif;
+font-weight: 200;
+font-style: normal;
+font-size: 20px;
+
+color: lightgrey;
+text-align: center;
+letter-spacing: 1,25px;
+padding: 14px;
+text-decoration: none;
+
+
+}
+  
+nav a:hover {
+color:black;
 }
 
-
-nav ul {
-	display: flex;
-}
-
-nav li {
-	margin-left: 50px;
-}
-
-nav input, label {
-	display: none;
-}
 /* nav & menu */
 
 
@@ -135,7 +123,7 @@ transform: translateX(-2px);
 	color: white;
 }
 
-.darkmode h1 {
+.darkmode h1 a {
 	color: white;
 }
 
@@ -158,6 +146,12 @@ transform: translateX(-2px);
 
 }
 
+.seemore {
+	text-decoration: none;
+	padding: 10px;
+
+}
+
 p {
 	text-align: center;
 	font-family: interface,sans-serif;
@@ -166,7 +160,7 @@ p {
 	font-size: 15px;
 }
 
-h3 { 
+h2 { 
 	text-align: center;
 	font-family: interface,sans-serif;
 	font-weight: 400;
@@ -188,70 +182,77 @@ footer {
 
 /*footer*/
 
+.text-box {
+	justify-content: center;
+	display: flex;
+}
 
+.box-text  { 
+	text-align: center;
+	width: 1180px ;
+	height: 780px;
+	background-color: #76A8D9;
+}
+
+h3 {
+	font-family: halyard-display,sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 30px;
+	color: white;
+	letter-spacing: 2px;
+}
+	
 
 
 
 @media only screen and (max-width: 550px) {
 
-	nav h1 {
-		font-size: 1.2;
-		justify-content: center;
-  	}
-  
-
-	/* nav & menu */
-	nav {
-
-		height: 100%;
-		position: sticky;
-		top: 0;
-		display: flex;
-		justify-content: space-between;
-		padding: 15px;
-		margin: 0;
-	}
-
-
-	nav label {
-		display: block;
-		font-size: 1.5em;
-		line-height: 1em;
+	h1 {
+		font-family: baskerville-urw,serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 20px;
+		text-align: center;
 		
-	}
-
-	ul {
+		}
+		
+		h1 a {
+			text-decoration: none;
+			color: black;
+		}
+		
+		
+		nav {
+		background-color: transparent;
+		overflow: auto;
+		white-space: nowrap;
 		display: flex;
-		flex-direction: column;
-		transform:translateY(-100em);
+		justify-content: center;
+		
+		}
+		  
+		nav a {
+		font-family: acumin-pro,sans-serif;
+		font-weight: 200;
+		font-style: normal;
+		font-size: 15px;
+		
+		color: lightgrey;
+		text-align: center;
+		letter-spacing: 1,25px;
+		padding: 14px;
+		text-decoration: none;
+		
+		
+		}
+		  
+		nav a:hover {
+		color:black;
+		}
 	
-		transition: 0.5s;
-	}
-
-
-	#toggle:checked + ul {
-		transform:translateY(0);
-		opacity: 100;
-    }
-
-	.menu {
-		position: absolute;
-		top: 50px;
-		left: 0;
-		width: 100%;
-		height: 100vh;
-		background-color: white;
-		padding-top: 50%;
-	}
-
-	nav li {
-		margin: 30px 0;
-	}
-
-	.menu-link {
-		font-size: 1.5em;
-	}
-	/* nav & menu */
+	
+	
 	
 	/*header*/
 
